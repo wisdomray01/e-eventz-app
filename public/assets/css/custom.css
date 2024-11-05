@@ -1,0 +1,109 @@
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/assets/images/wed1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.event {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: #ffc107;
+    margin-top: 3%;
+}
+
+#ev-title {
+    background-color: #ffc107;
+}
+
+.card button,
+.card input {
+    opacity: 100%;
+
+}
+
+.card {
+    border-radius: 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    opacity: 80%;
+    font-display: white;
+}
+
+
+
+.form-label {
+    color: white;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0px;
+}
+
+.btn-warning {
+
+    border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004d99;
+}
+
+.modal-title {
+    color: green;
+}
+
+.map-container {
+    height: 50%;
+    min-height: 50%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    padding-right: 5%;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 24px;
+}
+
+.card-text {
+    color: #fff;
+
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 2px solid #ffc107;
+    opacity: 90%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #b9b9b9;
+}
